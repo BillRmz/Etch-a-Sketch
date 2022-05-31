@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 h1{
@@ -13,7 +14,8 @@ h1{
 
 .container{
 border-radius: 20px;
-    margin-top: 1.5rem;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
  text-align: center;
  border: solid 2px rgba(213, 13, 13, 0.797);;
 width: 50%;
@@ -23,8 +25,8 @@ background-color: rgba(213, 13, 13, 0.656);
 }
    #grid-container {
     display: grid;
-    max-width: 480px;
-    min-height: 480px;
+    max-width: 600px;
+    min-height: 420px;
     margin: 1rem auto;
     border: 2px solid rgba(34, 34, 34, 0.412);
     border-radius: 5px;
@@ -54,7 +56,7 @@ background-color: rgba(213, 13, 13, 0.656);
     background-color: rgb(238, 238, 238);
     color: #090909;
     font-family: inherit;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
    
   }
 
@@ -63,3 +65,30 @@ background-color: rgba(213, 13, 13, 0.656);
     background-color: rgb(0, 157, 120);
     color: white;
   }
+
+  
+.footer{
+  
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  padding: 1rem;
+  color: rgb(8, 6, 6);
+  text-align: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+.link-name{
+  color: rgb(10, 1, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-name:hover{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(212, 34, 34, 0.699);
+  text-decoration: none;
+
+}
