@@ -14,10 +14,10 @@ btnRandomColor.addEventListener("click", chooseRandom);
 resetbtn.addEventListener("click", reset);
 
 function changeGridSize() {
-  let newSize = prompt("Enter new size < 65");
+  let newSize = prompt("Enter new size < 100");
   newSize = parseInt(newSize);
-  if (newSize < 1 || newSize > 64 || Number.isNaN(newSize)) {
-    alert("Enter a number from 1-64 range");
+  if (newSize < 1 || newSize > 100 || Number.isNaN(newSize)) {
+    alert("Enter a number from 1-100 range");
     changeGridSize();
   } else {
     gridContainer.innerHTML = "";
@@ -26,7 +26,7 @@ function changeGridSize() {
 }
 
 function setDefaultGrid() {
-  makeGrid(16);
+  makeGrid(25);
 }
 
 function makeGrid(size) {
