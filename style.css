@@ -44,6 +44,7 @@ background-color: rgba(213, 13, 13, 0.656);
       display: flex;
       align-items: center;
       justify-content: space-evenly;
+      flex-wrap: wrap;
   }
   
   button {
